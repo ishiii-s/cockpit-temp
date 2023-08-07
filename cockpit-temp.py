@@ -41,8 +41,8 @@ json_result = json.dumps({"top-apps": top_apps}, indent=4)
 
 #Steps to load json into table for BigQuery
 # Define the dataset and table information
-dataset_id = 'your_project_id.your_dataset_id'
-table_id = 'your_table_id'
+#dataset_id = 'your_project_id.your_dataset_id'
+#table_id = 'your_table_id'
 
 #table = client.get_table(f"{dataset_id}.{table_id}")
 #rows_to_insert = [(json_result,)]
