@@ -31,7 +31,7 @@ for marketplace, query in queries:
 
     # Store the result in the dictionary
     top_apps[marketplace] = {
-        "app_name": row.app_name,
+        "name": row.name,
         "marketplace_name": marketplace
     }
 
